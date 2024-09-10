@@ -271,7 +271,6 @@ impl CompactString {
     /// );
     /// ```
     #[inline]
-    #[rustversion::attr(since(1.64), const)]
     pub fn as_static_str(&self) -> Option<&'static str> {
         self.0.as_static_str()
     }
