@@ -12,3 +12,7 @@ members = [
 exclude = ["compact_str"]
 
 resolver = "2"
+
+[patch.crates-io]
+castaway = { git = "https://github.com/shintakezou/castaway", branch = "master" }
+
